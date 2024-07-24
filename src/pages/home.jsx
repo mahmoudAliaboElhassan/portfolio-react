@@ -11,7 +11,7 @@ function Home() {
           textShadow: " 3px 2px 1px rgba(0,0,0,0.6)",
         }}
       >
-        {process.env.REACT_APP_NAME.toLocaleLowerCase()} FrontEnd Developer
+        {process.env.REACT_APP_NAME?.toLocaleLowerCase()} FrontEnd Developer
       </h2>
     </>
   );
